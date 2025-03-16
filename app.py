@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.figure_factory as ff
 
 # Load Data
-df = pd.read_csv('coaster_db.csv')
+df = pd.read_csv('/mnt/data/coaster_db_clean.csv')
 
 # Streamlit UI
 st.set_page_config(page_title='Roller Coaster EDA', layout='wide')
@@ -57,3 +57,4 @@ fig_location = px.bar(location_speeds, x=location_speeds.index, y='mean',
 st.plotly_chart(fig_location, use_container_width=True)
 
 st.markdown('🚀 **Enjoy exploring the thrilling world of roller coasters!**')
+
