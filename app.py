@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.figure_factory as ff
 
 # Load Data
-df = pd.read_csv('/mnt/data/coaster_db_clean.csv')
+df = pd.read_csv('coaster_db_clean.csv')
 
 # Streamlit UI
 st.set_page_config(page_title='Roller Coaster EDA', layout='wide')
