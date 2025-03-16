@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 ### 3️⃣ Run the Streamlit App
 
-[Click here to try the Demo!](https://roller-coaster-analysis.streamlit.app/))
+[Click here to try the Demo!](https://roller-coaster-analysis.streamlit.app/)
 
 
 ## 📄 Dataset
